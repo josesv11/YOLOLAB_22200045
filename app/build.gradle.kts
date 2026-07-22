@@ -5,12 +5,7 @@ plugins {
 
 android {
     namespace = "com.SerratoVargas.yololab_22200045"
-
-    compileSdk {
-        version = release(37) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.SerratoVargas.yololab_22200045"
